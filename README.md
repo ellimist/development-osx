@@ -163,4 +163,5 @@ Here's what to do after completing a fresh install of OS X.
   - [CoRD](http://cord.sourceforge.net/) - remote desktop
   - [The Unarchiver](https://itunes.apple.com/en/app/the-unarchiver/id425424353?mt=12) - for `.rar`'s
   - [Dash](http://kapeli.com/dash) - offline searchable API documentations
+  - [WireShark](https://www.wireshark.org/) - network protocol analyzer
   - [SourceTree](http://www.sourcetreeapp.com/) - Git & Mercurial client
