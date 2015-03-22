@@ -12,7 +12,7 @@ Here's what to do after completing a fresh install of OS X.
 1. __Trackpad__
 
   - Enable tap to click
-  - Secoundary click with two fingers
+  - Secondary click with two fingers
   - Scroll direction - _natural_
   - Disable swipe between pages with two/three fingers
   - Swipe between full-screen apps with three fingers
