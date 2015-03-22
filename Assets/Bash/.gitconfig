@@ -26,6 +26,9 @@
   [core]
     whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
 
+[push]
+	default = matching
+
 ################################################################################
 # http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
 

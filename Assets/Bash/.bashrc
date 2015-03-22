@@ -93,6 +93,35 @@ function gcommit() {
   fi
 }
 
+function gpull() {
+  gup
+  g submodule update -i
+  gs
+}
+
+function gmerge() {
+  echo "Merge "$1" -> "$2
+  read -r -p "Do you want to merge? [y/N] " response
+  response=${response}
+  if [[ $response =~ ^(yes|y)$ ]]
+  then
+    gup
+    gc "$2"
+    g merge "$1" --no-ff
+
+    read -r -p "Do you want to push to origin? [y/N] " response
+    response=${response}
+    if [[ $response =~ ^(yes|y)$ ]]
+    then
+      g push
+    else
+      prt Aborted!
+    fi
+  else
+    prt Aborted!
+  fi
+}
+
 function parse_git_dirty {
   [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working directory clean" ]] && echo "*"
 }
