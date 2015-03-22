@@ -83,7 +83,7 @@ function gcommit() {
   ga --all
   gm "$1"
   read -r -p "Do you want to push to origin? [y/N] " response
-  response=${response,,}
+  response=${response}
   if [[ $response =~ ^(yes|y)$ ]]
   then
     git push
