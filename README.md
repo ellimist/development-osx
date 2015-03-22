@@ -86,11 +86,11 @@ Here's what to do after completing a fresh install of OS X.
 ### Development
 1. __Open Xcode and agree to license__
 
-1. __Automatic Install__
+1. __Automatic Install__ (Skip '3. Manual Install')
   1. __Run `./setup.sh`__
 
 1. __Manual Install__
-  
+
   1. __Terminal__
     - Install Xcode Command Line Tools - `xcode-select --install`
     - Install [Homebrew](http://brew.sh/)

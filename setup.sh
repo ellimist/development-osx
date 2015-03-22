@@ -38,7 +38,11 @@ separator
 
 ### Copy Configs
 cp ./Assets/Bash/.bashrc ~/.bashrc
+echo ".bashrc done"
 cp ./Assets/Bash/.gitconfig ~/.gitconfig
+echo ".gitconfig done"
 cp ./Assets/Bash/.jump ~/.jump
+echo ".jump done"
 cp ./Assets/Fonts/* ~/Library/Fonts/
+echo "Fonts done"
 separator
