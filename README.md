@@ -14,8 +14,8 @@ Here's what to do after completing a fresh install of OS X.
   - Enable tap to click
   - Secoundary click with two fingers
   - Scroll direction - _natural_
-  - Swipe between pages with three fingers
-  - Swipe between full-screen apps with four fingers
+  - Disable swipe between pages with two/three fingers
+  - Swipe between full-screen apps with three fingers
   - Swipe up with three fingers for Mission Control
 
 1. __Mouse__
@@ -25,7 +25,7 @@ Here's what to do after completing a fresh install of OS X.
   - Increase tracking
 
 1. __Dock__
-  
+
   - Clean up
   - Auto hide or position left/right (?)
   - Add white spaces
@@ -33,7 +33,7 @@ Here's what to do after completing a fresh install of OS X.
     - ```sh killall Dock ```
 
 1. __Finder__
-  
+
   - Finder -> Preferences
     - Show [Hard disks, Extrenal disks, Connected servers] on desktop
     - New Finder windows shows - Home directory
@@ -93,12 +93,13 @@ Here's what to do after completing a fresh install of OS X.
   - Install [Homebrew](http://brew.sh/)
     - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
   - Install [Grunt.js CLI](http://gruntjs.com/)
-    - `npm install -g grunt-cli` 
+    - `npm install -g grunt-cli`
+  - Install [Heroku Toolbelt](https://toolbelt.heroku.com/)
   - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
   - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled
   - Clone this project - `git@github.com:ktabori/development-osx.git`
   - Install fonts from `/Assets/Fonts` directory
-  - Terminal -> Preferencies -> Profiles -> Settings dropdown -> Import 
+  - Terminal -> Preferencies -> Profiles -> Settings dropdown -> Import
     - `/Assets/Bash/base16-flat-krta.terminal`
   - Edit `sudo nano ~/.bashrc`
     - Copy and paste content from `/Assets/Bash/.bashrc`
@@ -107,7 +108,7 @@ Here's what to do after completing a fresh install of OS X.
   - Add `/Assets/Bash/.jump` in `~/`
 
 ### Install Apps
-  
+
 1. __Browsers__
   - [Google Chrome](https://www.google.com/chrome/)
   - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
