@@ -30,7 +30,7 @@ Here's what to do after completing a fresh install of OS X.
 
 1. __Finder__
   - Finder -> Preferences
-    - Show [Hard disks, Extrenal disks, Connected servers] on desktop
+    - Show [Hard disks, External disks, Connected servers] on desktop
     - New Finder windows shows - Home directory
     - Check 'Open folders in tabs istead of new windows'
     - Sidebar
